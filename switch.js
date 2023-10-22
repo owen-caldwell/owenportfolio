@@ -27,12 +27,6 @@ workbtn.addEventListener("click", () => {
     bio.style.display = "none";
     infobtn.style.textDecoration = "none";
 })
-workbtn.addEventListener("mouseover", () => {
-    workbtn.style.textDecoration = "underline"
-})
-infobtn.addEventListener("mouseover", () => {
-    infobtn.style.textDecoration = "underline"
-})
 extworkbtn.addEventListener("mouseover", () => {
     extworkbtn.style.cursor = "pointer";
 })
