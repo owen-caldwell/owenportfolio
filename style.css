@@ -11,6 +11,7 @@ body {
 }
 a {
     color: white;
+    padding: 0 2px;
 }
 .bio {
     text-align: justify;
@@ -20,6 +21,11 @@ a {
 }
 .work {
     margin: 6em 0;
+}
+.work a:hover {
+    background-color: white;
+    color: rgb(0, 74, 210);
+    border-radius: 2px;
 }
 header {
     max-width: 500px;

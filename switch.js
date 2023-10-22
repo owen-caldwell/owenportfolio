@@ -3,6 +3,7 @@ const work = document.querySelector(".work");
 const infobtn = document.querySelector("#infobtn");
 const workbtn = document.querySelector("#workbtn");
 const extworkbtn = document.querySelector("#extworkbtn");
+const body = document.querySelector("body");
 bio.style.display = "block";
 infobtn.style.textDecoration = "underline";
 work.style.display = "none";
