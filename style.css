@@ -4,18 +4,35 @@ body {
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5em;
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 a {
     color: white;
 }
 .bio {
+    text-align: justify;
     margin: 4em 0;
 }
 .work {
     margin: 6em 0;
 }
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    max-width: 500px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: .5em 1em;
+}
+nav a {
+    text-decoration: none;
+}
+main {
+    max-width: 500px;
+}
+.work p {
+    margin: 0 0 1em 0;
 }
