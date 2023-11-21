@@ -1,5 +1,6 @@
 body {
     margin: 2em;
+    font-size: 14px;
     background-color: rgb(0, 74, 210);
     color: white;
     font-family:Arial, Helvetica, sans-serif;
@@ -13,19 +14,15 @@ a {
     color: white;
     padding: 0 2px;
 }
+main {
+    letter-spacing: .6px;
+    line-height: 1.6;
+}
 .bio {
-    text-align: justify;
-    font-size: 16px;
-    letter-spacing: .7px;
     margin: 4em 0;
 }
 .work {
-    margin: 6em 0;
-}
-.work a:hover {
-    background-color: white;
-    color: rgb(0, 74, 210);
-    border-radius: 2px;
+    margin: 3em 0;
 }
 header {
     max-width: 500px;
